@@ -1585,7 +1585,7 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #87b9ff !important;
 			text-decoration: none;
 		}
 
@@ -2476,11 +2476,11 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 29%;
 	}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #e0b470;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2488,7 +2488,7 @@
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 153, 255, 0.986);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
@@ -2496,7 +2496,7 @@
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 13.25em;
 		}
 
 /* Footer */
