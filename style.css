@@ -389,7 +389,7 @@ img {
         background: #005D9E;
         border-radius: 27px;
         background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
-        background: linear-gradient(to right, #FFF700, #005D9E);
+        background: linear-gradient(to left, #333028, #005D9E);
         padding: 0 40px;
         line-height: 85px;
         height: 85px; }
