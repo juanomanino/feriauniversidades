@@ -349,6 +349,7 @@ img {
       background-color: transparent; }
     .header-area .academy-main-menu .classy-navbar {
       background-color: #f5f7fa;
+      width: 100%;
       height: 85px;
       border-radius: 30px;
       padding: 0; }
@@ -364,7 +365,7 @@ img {
         font-weight: 700;
         text-transform: uppercase; }
         .header-area .academy-main-menu .classy-navbar .classynav ul li a:hover, .header-area .academy-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #69bc5f; }
+          color: #df9100; }
     .header-area .academy-main-menu .classynav {
       padding-left: 2em; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -386,12 +387,13 @@ img {
       .header-area .academy-main-menu .calling-info .call-center {
         position: relative;
         z-index: 1;
+        width: 100%;
         background: #005D9E;
-        border-radius: 27px;
+        border-radius: 0px;
         background: -webkit-linear-gradient(to right, #FFF700, #005D9E);
         background: linear-gradient(to left, #333028, #005D9E);
         padding: 0 40px;
-        line-height: 85px;
+        line-height: 85px;  
         height: 85px; }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .academy-main-menu .calling-info .call-center {
@@ -419,15 +421,16 @@ img {
               display: none; } }
         .header-area .academy-main-menu .calling-info .call-center:before {
           position: absolute;
-          width: 50px;
-          height: 120%;
-          top: 3px;
-          left: -28px;
+          width: 90px;
+          border-radius:100%;
+          height: 115%;
+          top: -6px;
+          left: -60px;
           z-index: 1;
           background-color:#f5f7fa;
           content: '';
           -webkit-transform: rotate(30deg);
-          transform: rotate(30deg); }
+          transform: rotate(0deg); }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .header-area .academy-main-menu .calling-info .call-center:before {
               width: 42px; } }
@@ -438,7 +441,7 @@ img {
     top: 0;
     left: 0;
     z-index: 3000;
-    background-color: #f5f7fa;
+    background-color: #333028;
     box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2); }
     .header-area .is-sticky .academy-main-menu::after {
       position: absolute;
@@ -447,7 +450,7 @@ img {
       top: 0;
       right: 0;
       z-index: 1;
-      background-color: #005D9E;
+      background-color: #3d3d3d00;
       content: ''; }
 
 .hero-slides {
@@ -477,7 +480,7 @@ img {
           font-size: 18px; } }
     .hero-slides .single-hero-slide h2 {
       font-size: 60px;
-      color: #009EFF;
+      color: #ffc03a;
       text-shadow: 3px 3px 3px black;
 
       margin-bottom: 30px; }
@@ -494,11 +497,11 @@ img {
   .hero-slides .owl-next {
     background: #61ba6d;
     background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-    background: linear-gradient(to right, #61ba6d, #83c331);
+    background: linear-gradient(to right, #009bf5, #001f47);
     width: 56px;
     height: 56px;
     line-height: 56px;
-    color: #009EFF;
+    color: #ffae00;
     top: 50%;
     margin-top: -28px;
     left: 5%;
@@ -594,7 +597,7 @@ img {
   width: 91px;
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-  background: linear-gradient(to right, #61ba6d, #83c331);
+  background: linear-gradient(to right, #dfaa19c4, #c78051);
   width: 91px;
   height: 91px;
   line-height: 95px;
@@ -619,7 +622,7 @@ img {
 .single-course-area .course-content p {
   margin-bottom: 0; }
 .single-course-area:hover .course-content h4, .single-course-area:focus .course-content h4 {
-  color: #69bc5f; }
+  color: #ffae00; }
 
 /* Testimonials Area CSS */
 .single-testimonial-area {
@@ -799,8 +802,8 @@ img {
   z-index: 1;
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
-  background: linear-gradient(to right, #61ba6d, #83c331);
-  padding: 70px 0; }
+  background: linear-gradient(to bottom, #005D9E, #232323);
+  padding: 30px 0; }
   .call-to-action-area .cta-content h3 {
     font-size: 30px;
     color: #ffffff;
@@ -1247,8 +1250,3 @@ img {
     font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */
-
-.academy-logo{
-  
-
-}
