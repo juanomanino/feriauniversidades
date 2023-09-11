@@ -2099,8 +2099,8 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				border-radius: 25%;
+				width: 130%;
 			}
 
 /* List */
@@ -2511,7 +2511,7 @@
 		}
 
 		#header .image.avatar {
-			margin: 0 1em 1em 0;
+			margin: 0 3.5em 1em 0;
 			width: 13.25em;
 		}
 
