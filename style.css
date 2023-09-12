@@ -364,6 +364,10 @@ img {
         .header-area .academy-main-menu .classy-navbar {
           padding: 0;
           padding-left: 2em; } }
+          .header-area .academy-main-menu .classy-navbar  {
+            padding: 0;
+            padding-left: 2em; } 
+          
       .header-area .academy-main-menu .classy-navbar .classynav ul li a {
         font-weight: 700;
         text-transform: uppercase; }
